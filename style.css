@@ -1,6 +1,8 @@
  * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
 .nav-item{
@@ -12,10 +14,6 @@
     background-color: #EBECF0;
     width: 320px;
     height: 42px;
-}
-
-.container {
-  display: flex;
 }
 
 .category-card {
@@ -133,8 +131,11 @@
     display: flex;
     width: 100%;
     margin-left: 20px;
-    background-color: white;
     gap: 3rem;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
 }
 
 .boxx-section1{
@@ -148,7 +149,12 @@
 }
 
 .boxx2-content2 li{
-     list-style-type: none; 
+     list-style-type: none;
+     cursor: pointer; 
+}
+
+.boxx2-content2 li:hover {
+  color: #B33791;
 }
 
 .last-section{
@@ -160,4 +166,8 @@
     background-color: #B33791;
     height: 50px;
     color: white;
+    margin: 0;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
 }
